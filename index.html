@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <title>Sign Up form</title>
+</head>
+<body>
+  <div class="full">
+    <div class="header">
+      <img src="./odin.png" alt="logo">
+      <h1>ODIN</h1>
+    </div>
+  <div class="parent">
+    <div class="form1"> 
+      <form action="#" method="post">
+        <label for="firstname name">FIRST NAME </label>  <input type="text" name="firstname" id="firstname" placeholder="Thor" required/>
+        <label for="email">EMAIL </label> <input type="email" required>
+        <label for="password" id="password">PASSWORD </label><input type="password" required />
+        </form>
+    </div>
+    <div class="form2">
+      <form action="#" method="post">
+      <label for="lastname">LAST NAME </label> <input type="text" name="lastname" id="firstname" placeholder="Odinson" required />
+      <label for="phonenumber">PHONE NUMBER </label><input type="text" required />
+      <label for="confirm" id="confirm_password">CONFIRM PASSWORD </label><input type="password" required />  
+    </form>
+    </div>
+  </div> 
+  <form action="#" method="get">
+    <button onClick="btnclick()">Create Account</button>
+    <p class="help-block">Already have an account?<a href="#" class="help-inline">Log in</a></p>
+  </form>
+  </div>      
+      <script src="script.js" defer></script>
+</body>
+</html>
